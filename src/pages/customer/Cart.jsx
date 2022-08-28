@@ -153,7 +153,7 @@ function Cart() {
                 <div className="row g-0 mb-2">
                   <div className="col-md-2">
                     <img
-                      src={`http://localhost:5000/uploads/` + item?.product?.image}
+                      src={item?.product?.image}
                       alt=""
                       className="rounded"
                       height={"100px"}
